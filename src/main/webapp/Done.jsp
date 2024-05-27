@@ -12,6 +12,10 @@ body {
     background-color: #f4f4f4;
     margin: 0;
      padding: 100px 600px;
+      align-items : center;
+    height: 100vh;
+      background: linear-gradient(135deg, #8bd7cb 0%, #c9e4e8 50%, #ffd3b6 100%);
+    
 }
 
 .container {
@@ -24,6 +28,7 @@ body {
 
 h2, h4 {
     text-align: center;
+    font-size: 40px;
 }
 
 a {
@@ -43,7 +48,7 @@ a:hover {
 <h2> Done Successfully</h2>
 <br/>
 <h4> THANK YOU</h4>
-Move to next one <a href='Success.jsp'> Another task</a>
+<a href='Success.jsp'> Another task</a>
 
 </body>
 </html>
