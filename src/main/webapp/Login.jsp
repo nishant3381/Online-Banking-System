@@ -11,6 +11,12 @@ body {
     background-color: #f4f4f4;
     margin: 0;
     padding: 100px 600px;
+    justify-content: center;
+    align-items : center;
+    height: 100vh;
+     background: linear-gradient(135deg, #8bd7cb 0%, #c9e4e8 50%, #ffd3b6 100%);
+    
+
    
 }
 
@@ -22,13 +28,16 @@ body {
     align-items: center;
 }
 
-form {
-    background: #fff;
-    max-width: 400px;
-    padding: 30px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
+ form {
+            background: #fff;
+            max-width: 400px;
+            width: 100%;
+            padding: 30px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
+            margin-left: 60px;
+ }
 
 label {
     font-weight: bold;
@@ -76,9 +85,14 @@ input[type="submit"]:hover {
 .register-link a:hover {
     text-decoration: underline;
 }
+h5{
+text-align: center;
+ font-size: 40px;
+}
 </style>
 </head>
 <body>
+<h5>ONLINE BANKING SYSTEM</h5>
 <h2>LOGIN</h2>
 <form action = "LoginServlet" method = "post">
 <label>USERNAME : </label>
