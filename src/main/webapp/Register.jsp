@@ -8,6 +8,10 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
+     align-items : center;
+    height: 100vh;
+     background: linear-gradient(135deg, #8bd7cb 0%, #c9e4e8 50%, #ffd3b6 100%);
+    
 }
 h2{
  text-align: center;
@@ -47,6 +51,7 @@ input[type="submit"] {
     cursor: pointer;
 }
 
+
 input[type="submit"]:hover {
     background-color: #45a049;
 }
@@ -69,7 +74,9 @@ input[type="submit"]:hover {
 <label>CONFIRM PASSWORD</label>
 <input type = "password" name = "cnfm"/>
 <br/>
-<input type = "submit" value="register">
+<input type = "submit" value="Register">
+<br/><br/>
+ If login !! <a href='Login.jsp'> Register Now</a>
 
 </form>
 
