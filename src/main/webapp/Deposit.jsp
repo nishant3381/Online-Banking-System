@@ -4,18 +4,18 @@
 <html>
 <head>
 
-<title>Create</title>
+<title>Deposite</title>
 <style>
 /* CSS for Create Form */
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
     margin: 0;
-    
      padding: 100px 600px;
-      align-items : center;
+     justify-content: center;
+    align-items : center;
     height: 100vh;
-      background: linear-gradient(135deg, #8bd7cb 0%, #c9e4e8 50%, #ffd3b6 100%);
+    background: linear-gradient(135deg, #8bd7cb 0%, #c9e4e8 50%, #ffd3b6 100%);
     
 }
 
@@ -67,6 +67,7 @@ text-align: center;
  font-size: 50px;
 }
 
+
 input[type="submit"]:hover {
     background-color: #45a049;
 }
@@ -74,18 +75,15 @@ input[type="submit"]:hover {
 </head>
 <body>
 <h5>ONLINE BANKING SYSTEM</h5>
-<h2> Create Account</h2>
-<form action= 'CreateServlet'  method='post'>
+<h2>Deposite Amout</h2>
+<form action= 'DepositServlet'  method='post'>
 <label>Enter Acc Num :</label>
 <input type = 'text' name='num'/>
 <br/>
-<label>Enter Name :</label>
-<input type = 'text' name='name'/>
-<br/>
-<label>Enter Enter Balance :</label>
-<input type = 'text' name='balance'/>
+<label>Enter amount :</label>
+<input type = 'text' name='amt'/>
 
-<input type = 'submit' value ='Create Account'/>
+<input type = 'submit' value ='Deposit'/>
 </form>
 
 </body>
