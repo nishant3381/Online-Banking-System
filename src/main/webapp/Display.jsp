@@ -11,6 +11,9 @@ body {
     background-color: #f4f4f4;
     margin: 0;
      padding: 100px 600px;
+      align-items : center;
+    height: 100vh;
+      background: linear-gradient(135deg, #8bd7cb 0%, #c9e4e8 50%, #ffd3b6 100%);
 }
 
 .container {
@@ -27,6 +30,7 @@ form {
     padding: 30px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-left: 60px;
 }
 
 label {
@@ -51,6 +55,14 @@ input[type="submit"] {
     border-radius: 3px;
     cursor: pointer;
 }
+h5{
+text-align: center;
+ font-size: 40px;
+}
+h2{
+text-align: center;
+ font-size: 50px;
+}
 
 input[type="submit"]:hover {
     background-color: #45a049;
@@ -58,6 +70,8 @@ input[type="submit"]:hover {
 </style>
 </head>
 <body>
+<h5>ONLINE BANKING SYSTEM</h5>
+<h2> Display Account Details</h2>
 <form action = "DisplayServlet" method = "post">
 <label>Acc Num</label>
 <input type = "text" name = "num"/>
