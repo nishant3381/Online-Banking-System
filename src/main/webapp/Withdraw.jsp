@@ -11,6 +11,10 @@ body {
     background-color: #f4f4f4;
     margin: 0;
     padding: 100px 600px;
+     align-items : center;
+    height: 100vh;
+      background: linear-gradient(135deg, #8bd7cb 0%, #c9e4e8 50%, #ffd3b6 100%);
+    
 }
 
 .container {
